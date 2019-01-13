@@ -2,3 +2,46 @@ header {
   height: 100vh;
   background-image: url('../img/bg.png');
 }
+.logo {
+  width: 131px;
+  height: 38px;
+}
+.nav-header {
+  display: flex;
+  margin-left: 4em;
+  padding-top: 2.5em;
+  align-items: center;
+}
+.nav-header .links {
+  margin-left: 9em;
+  align-self: center;
+  margin-top: 12px;
+}
+.nav-header .links li {
+  display: inline-block;
+  margin-left: 3em;
+}
+.nav-header .links li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 13pt;
+  font-weight: bolder;
+}
+.nav-header .links li a:hover {
+  text-decoration: underline;
+}
+.nav-header .links .button-login {
+  background-color: #fff;
+  border-radius: 35px;
+  margin-left: 21em;
+  padding: 7px 35px;
+}
+.nav-header .links .button-login a {
+  color: #52509D;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.nav-header .links .button-login:hover {
+  border: 3px solid #52509D;
+}
