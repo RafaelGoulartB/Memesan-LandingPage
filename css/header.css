@@ -2,6 +2,9 @@ header {
   height: 100vh;
   background-image: url('../img/bg.png');
 }
+header .mobile {
+  display: none;
+}
 .logo {
   width: 131px;
   height: 38px;
