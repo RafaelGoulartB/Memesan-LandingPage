@@ -2,9 +2,6 @@ header {
   height: 100vh;
   background-image: url('../img/bg.png');
 }
-header .mobile {
-  display: none;
-}
 .logo {
   width: 131px;
   height: 38px;
@@ -47,4 +44,47 @@ header .mobile {
 }
 .nav-header .links .button-login:hover {
   border: 3px solid #52509D;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  header {
+    background-image: none;
+    background-color: #52509D;
+  }
+  header .mobile .nav-header-mobile {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    margin-top: 2em;
+  }
+  header .mobile .nav-header-mobile .logo {
+    color: #fff;
+    font-size: 18pt;
+    font-weight: bolder;
+  }
+  header .mobile .nav-header-mobile .dropdown {
+    /* position: relative; */
+  }
+  header .mobile .nav-header-mobile .dropdown img {
+    align-self: baseline;
+  }
+  header .mobile .nav-header-mobile .dropdown nav {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    width: 100vw;
+    visibility: hidden;
+  }
+  header .mobile .nav-header-mobile .dropdown nav a {
+    background-color: #a45cbd;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    border-bottom: 1px solid #52509D;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+  }
 }
