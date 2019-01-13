@@ -50,7 +50,7 @@ header {
 @media (max-width: 600px) {
   header {
     background-image: none;
-    background-color: #52509D;
+    background-color: #614ea9;
   }
   header .mobile .nav-header-mobile {
     display: flex;
