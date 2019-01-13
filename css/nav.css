@@ -8,7 +8,7 @@ header {
 }
 .nav-header {
   display: flex;
-  margin-left: 4em;
+  margin-left: 6em;
   padding-top: 2.5em;
   align-items: center;
 }
