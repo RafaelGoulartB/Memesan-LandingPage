@@ -11,5 +11,6 @@ body {
   }
   .mobile {
     display: flex;
+    flex-direction: column;
   }
 }

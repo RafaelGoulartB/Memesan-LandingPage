@@ -45,5 +45,39 @@ header .desktop .main-header .text .desc {
 
 /* Mobile */
 @media (max-width: 600px) {
+  header .mobile .main-header {
+    margin: 3em auto;
+    width: 80%;
+    text-align: center;
+  }
+  header .mobile .main-header .text {
+    color: #fff;
+  }
+  header .mobile .main-header .text .cta {
+    font-family: 'Playfair Display', serif;
+    font-size: 27px;
+  }
+  header .mobile .main-header .text .sub-cta {
+    font-size: 18px;
+    margin-top: 1em;
+  }
+  header .mobile .main-header .text button {
+    position: relative;
+    color: #fff;
+    background-color: #FF6CB3;
+    border: none;
+    margin-top: 3em;
+    padding: 12px 60px;
+    border-radius: 28px;
+    font-weight: bolder;
+    letter-spacing: 1.2px;
+    box-shadow: 0px 12px 100px rgba(173, 255, 196, 0.5);
+  }
+  header .mobile .main-header .text .desc {
+    margin-top: 2em;
+  }
+  header .mobile .main-header .slider img {
+    margin-top: 2em;
+  }
 
 }
