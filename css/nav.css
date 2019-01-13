@@ -73,6 +73,7 @@ header {
     left: 0;
     width: 100vw;
     visibility: hidden;
+    z-index: 3;
   }
   header .mobile .nav-header-mobile .dropdown nav a {
     background-color: #a45cbd;
