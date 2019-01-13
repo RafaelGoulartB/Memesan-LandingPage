@@ -45,6 +45,9 @@ header .desktop .main-header .text .desc {
 
 /* Mobile */
 @media (max-width: 600px) {
+  header {
+    height: 110vh;
+  }
   header .mobile .main-header {
     margin: 3em auto;
     width: 80%;
