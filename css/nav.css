@@ -42,9 +42,6 @@ header {
   font-weight: bold;
   letter-spacing: 1px;
 }
-.nav-header .links .button-login:hover {
-  border: 3px solid #52509D;
-}
 
 /* Mobile */
 @media (max-width: 600px) {
