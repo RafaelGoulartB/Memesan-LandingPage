@@ -5,7 +5,7 @@
   padding-bottom: 2em;
   margin-top: 5em;
 }
-.price .desktop .container {
+.price .container {
   display: flex;
   width: 80%;
   color: #fff;
@@ -23,7 +23,7 @@
   font-size: 18px;
   margin-top: 1.5em;
 }
-.price .desktop .container .texts button {
+.price .container button {
   position: relative;
   color: #fff;
   background-color: #FF6CB3;
@@ -53,7 +53,7 @@
   box-shadow: 0px 4px 100px rgba(95, 95, 95, 0.25);
   color: rgba(68, 68, 68, 0.7);
 }
-.price .desktop .container .box-price .price {
+.price .box-price .price {
   width: 65%;
   margin-left: auto;
   margin-right: auto;
@@ -61,33 +61,85 @@
   background-image: none;
   border-bottom: 1px solid #DEDEDE;
 }
-.price .desktop .container .box-price .price-num {
+.price .box-price .price-num {
   color: #52509D;
   font-size: 38px;
   font-weight: bold;
   margin-top: -40px;
 }
-.price .desktop .container .box-price .period {
+.price .box-price .period {
   margin-top: 0.7em;
   color: #9E9E9E;
 }
-.price .desktop .container .box-price .benefits {
+.price .box-price .benefits {
   width: 80%;
   margin-left: auto;
   margin-right: auto;
 }
-.price .desktop .container .box-price .benefits div {
+.price .box-price .benefits div {
   display: flex;
   align-items: center;
   padding: 1em 1em;
   height: 35px;
   text-align: left;
 }
-.price .desktop .container .box-price .benefits p {
+.price .box-price .benefits p {
   margin-left: 25px;
 }
-.price .desktop .container .box-price .benefits img {
+.price .box-price .benefits img {
   width: 25px;
   height: 25px;
   margin-left: 12px;
+}
+@media (max-width: 600px) {
+  .price {
+    background-image: none;
+    background-color: #614ea9;
+  }
+  .price .mobile .container {
+    flex-direction: column;
+    margin: 1em auto;
+    text-align: center;
+  }
+  .price .mobile .container .annoucement {
+    font-size: 22px;
+    font-weight: bold;
+  }
+  .price .mobile .container .desc {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1.5em;
+  }
+  .price .mobile .container button {
+    padding: 15px 1px;
+    margin-top: 3em;
+    letter-spacing: 1px;
+  }
+  .price .mobile .container .box-price {
+    background-color: #fff;
+    color: rgba(68, 68, 68, 0.7);
+    border-radius: 20px;
+    margin-top: 2em;
+  }
+  .price .mobile .container .box-price .price {
+    background-color: #fff;
+  }
+  .price .mobile .box-price .price-num {
+    font-size: 30px;
+    margin-top: -50px;
+  }
+  .price .mobile .box-price .benefits {
+    width: 90%;
+    font-size: 14px;
+    padding-bottom: 2em;
+  }
+  .price .mobile .box-price .benefits p {
+    margin-left: 18px;
+  }
+  .price .mobile .box-price .benefits img {
+    width: 22px;
+    height: 22px;
+    margin-left: 15px;
+  }
 }
