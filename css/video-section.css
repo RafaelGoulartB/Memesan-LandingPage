@@ -1,0 +1,40 @@
+.video {
+  background-color: #f9f9f9;
+}
+.video .desktop .container {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 5em;
+  margin-left: 5em;
+}
+.video .desktop .container .texts {
+  width: 50%;
+}
+.video .desktop .container .texts .annoucement {
+  color: #52509D;
+  font-size: 42px;
+  font-weight: bold;
+}
+.video .desktop .container .texts .text {
+  color: rgba(82, 80, 157, 0.7);
+  width: 65%;
+  margin-top: 2em;
+  font-weight: normal;
+  font-size: 18px;
+  letter-spacing: 1.1px;
+}
+
+.video .desktop .container .texts .boards {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 1em;
+}
+.video .desktop .container .texts .boards .board {
+  background-color: rgba(82, 80, 157, 0.1);
+  margin: 1em;
+  padding: 1em 2.5em 1em 1em;
+  text-align: left;
+}
+.video .desktop .container .video video {
+  margin-top: 6em;
+}
