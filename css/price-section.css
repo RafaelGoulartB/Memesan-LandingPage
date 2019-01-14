@@ -1,0 +1,93 @@
+.price {
+  background-image: url('../img/bg-price-section.png');
+  background-position: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  margin-top: 5em;
+}
+.price .desktop .container {
+  display: flex;
+  width: 80%;
+  color: #fff;
+  margin: 2em auto;
+}
+.price .desktop .container .texts {
+  width: 40%;
+}
+.price .desktop .container .texts .annoucement {
+  font-size: 34px;
+  font-weight: bold;
+}
+.price .desktop .container .texts .desc {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 18px;
+  margin-top: 1.5em;
+}
+.price .desktop .container .texts button {
+  position: relative;
+  color: #fff;
+  background-color: #FF6CB3;
+  border: none;
+  margin-top: 4em;
+  padding: 15px 70px 15px 30px;
+  border-radius: 28px;
+  font-weight: bolder;
+  letter-spacing: 1.2px;
+  box-shadow: 0px 12px 100px rgba(173, 255, 196, 0.5);
+}
+.price .desktop .container .texts button::after {
+  content: url('../img/arrow-button.svg');
+  position: absolute;
+  left: 195px;
+}
+.price .desktop .container .box-price {
+  position: absolute;
+  border-radius: 20px;
+  width: 400px;
+  height: 500px;
+  left: 52%;
+  text-align: center;
+
+  background-color: #fff;
+  background-image: none;
+  box-shadow: 0px 4px 100px rgba(95, 95, 95, 0.25);
+  color: rgba(68, 68, 68, 0.7);
+}
+.price .desktop .container .box-price .price {
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
+  background-image: none;
+  border-bottom: 1px solid #DEDEDE;
+}
+.price .desktop .container .box-price .price-num {
+  color: #52509D;
+  font-size: 38px;
+  font-weight: bold;
+  margin-top: -40px;
+}
+.price .desktop .container .box-price .period {
+  margin-top: 0.7em;
+  color: #9E9E9E;
+}
+.price .desktop .container .box-price .benefits {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.price .desktop .container .box-price .benefits div {
+  display: flex;
+  align-items: center;
+  padding: 1em 1em;
+  height: 35px;
+  text-align: left;
+}
+.price .desktop .container .box-price .benefits p {
+  margin-left: 25px;
+}
+.price .desktop .container .box-price .benefits img {
+  width: 25px;
+  height: 25px;
+  margin-left: 12px;
+}
