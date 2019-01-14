@@ -10,7 +10,7 @@
 .video .desktop .container .texts {
   width: 50%;
 }
-.video .desktop .container .texts .annoucement {
+.video .annoucement {
   color: #52509D;
   font-size: 42px;
   font-weight: bold;
@@ -37,4 +37,27 @@
 }
 .video .desktop .container .video video {
   margin-top: 6em;
+}
+
+@media (max-width: 600px) {
+  .video .mobile {
+    text-align: center;
+  }
+  .video .mobile .container {
+    margin-top: 3em;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .video .mobile .container .annoucement {
+    font-size: 28px;
+  }
+  .video .mobile .container .text {
+    color: rgba(82, 80, 157, 0.7);
+    margin: 2em auto 2em auto;
+    width: 70%;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 1.1px;
+  }
 }
