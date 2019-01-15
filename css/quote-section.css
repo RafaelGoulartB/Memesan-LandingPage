@@ -1,5 +1,5 @@
-.quote .desktop .container {
-  margin-top: 18em;
+.quote .container {
+  margin-top: 15em;
   display: flex;
   justify-content: space-around;
   color: rgba(68, 68, 68, 0.7);
@@ -11,28 +11,49 @@
   width: 40%;
   text-align: center;
 }
-.quote .desktop .container .slider blockquote {
+.quote .slider blockquote {
   position: relative;
   font-size: 20px;
   letter-spacing: 1.1px;
   display: flex;
   flex-direction: column;
 }
-.quote .desktop .container .slider blockquote::before {
+.quote .slider blockquote::before {
   content: url('../img/quote.svg');
   margin-top: 10px;
   align-self: flex-start;
   margin-bottom: 12px;
   margin-left: 20px;
 }
-.quote .desktop .container .slider .name-author {
+.quote .slider .name-author {
   font-size: 18px;
   font-weight: bold;
 }
-.quote .desktop .container .slider .img-author {
+.quote .slider .img-author {
   background-image: url('../img/quote-author.jpg');
   width: 60px;
   height: 60px;
   margin: 1.5em auto 1.5em auto;
   border-radius: 30px;
+}
+
+@media (max-width: 600px) {
+  .quote .mobile {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 3em;
+  }
+  .quote .mobile video {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 3em;
+  }
+  .quote .mobile .slider {
+  }
+  .quote .mobile .slider blockquote {
+    font-size: 17px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
