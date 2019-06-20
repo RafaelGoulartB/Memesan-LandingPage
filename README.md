@@ -1,12 +1,6 @@
-<h1 align="center">Welcome to Memesan-LandingPage 👋</h1>
+<h1 align="center">Memesan LandingPage</h1>
 <p>
 </p>
-
-## Install
-
-```sh
-npm install
-```
 
 ## Show your support
 
